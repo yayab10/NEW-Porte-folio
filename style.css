@@ -1,9 +1,12 @@
+*{
+    margin: 0;
+}
 body{
     width: 100%;
     height: 100%;
     margin: 0;
 }
-#homme{
+#home{
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,30 +20,33 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 9vh;
 }
 #my_name{
-    /* margin-left: 5vw; */
+    font-size: xx-large;
 }
 ul{
     display: flex;
-    
     margin-right: 15%;
     font-size: larger;
 }
 a{
     list-style: none;
-    text-decoration: none;
-    /* margin-right: 5%; */
+    text-decoration: none
 }
 li{
     margin-right: 5vw;
 }
+/* Nav end */
+/* Présent start */
 #present{
     background-color: #F5F5F5;
     height: 100vh;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 #present_title{
@@ -49,27 +55,115 @@ li{
     align-items: center;
 }
 #present_title h2{
-    position: absolute;
-    width: 30vw;
+    width: 100vw;
     font-size: 2em;
     color: #5b5963;
-    margin-bottom: 50px;
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-top: 17vh;
 }
-p{
-    /* position: absolute; */
-    width: 90vw;
-    /* top: 0vh; */
+#present_title p{
+    width: 100vw;
     opacity: 0.05;
-    font-size: 12vh;
-    margin-top: 12vh;
+    font-size: 7em;
+    margin-top: -11vh;
+    margin-bottom: 2vh;
+
 }
 #trait{
     background-color: #666;
     width: 55px;
     height: 1px;
+    /* margin: auto; */
+    margin-bottom: 5vh;
+}
+#present_text{
+    font-size: 2em;
+    width: 50vw;
+    margin: auto;
+    /* min-width: 400px; */
+    margin-top: 5vh;
+}
+/* Présentation end */
+/* Réalise start */
+/* #realise{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+        padding-top: 5vh;
+}
+
+#realise_1{
+    display: flex;
+        border: 3px solid black;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 20vh;
+}
+#realise_1 div{
+    display: flex;
+    border: 3px solid black;
+    width: 20%;
+}
+#realise_2{
+    display: flex;
+        border: 3px solid black;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 20vh;
+}
+#realise_2 div{
+    display: flex;
+    border: 3px solid black;
+    width: 20%;
+}
+#realise_1 div:nth-child(1){
+    color: red;
+    font-size: 2em;
+
+}#realise_1 div:nth-child(2){
+    color: aqua;
+    font-size: 2em;
+
+}
+#realise_2 div:nth-child(1)
+{
+    font-size: 2em;
+}
+#realise_2 div:nth-child(2)
+{
+    font-size: 2em;
+} */
+
+/* Contact start */
+#contact{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact_p p{
+    width: 100%;
+    /* margin: auto; */
     text-align: center;
-    margin-top: 0vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+    margin-top: 2em;
+}
+input{
+    /* margin: auto; */
+    margin-bottom: 1vh;
+    padding: 0.5em;
+}
+button{
+    background-color: black;
+    
 }
