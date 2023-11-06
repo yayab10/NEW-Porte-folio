@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <!-- <link rel="stylesheet" href="style2.css"> -->
     <title>Porte-Folio</title>
 </head>
@@ -21,12 +22,12 @@
         </div>
         <div id="ul">
             <ul>
-                <a href=""><li>Accuueil</li></a>
-                <a href=""><li>Présentation</li></a>
-                <a href=""><li>Réalisation</li></a>
-                <a href=""><li>Compétences</li></a>
-                <a href=""><li>Contact</li></a>
-                <a href=""><li>CV</li></a>
+                <a href="#home"><li>Accueil</li></a>
+                <a href="#present"><li>Présentation</li></a>
+                <a href="#realise"><li>Réalisation</li></a>
+                <a href="#competences"><li>Compétences</li></a>
+                <a href="#contact"><li>Contact</li></a>
+                <a href="#cv"><li>CV</li></a>
             </ul>
         </div>
     </nav>
@@ -37,7 +38,7 @@
             <h2>présentation</h2>
             <p>qui suis-je</p>
         </div>
-        <div id="trait"></div>
+        <hr>
         <div id="present_text">
             <p>Je suis actuellement en formation de DEVELOPEMENT WEB et WEB MOBILE à l'AFCI</p>
         </div>
@@ -45,8 +46,11 @@
     <!-- Présentation end -->
     <!-- Réalisation start -->
     <section id="realise">
+        <h2>Mes travaux</h2>
+        <p class="portfolio">portfolio</p>
+        <hr>
         <div id="realise_1">
-            <div>
+            <div id="projet1">
                 <p>Réalisation 1</p>
             </div>
             <div>
@@ -72,21 +76,66 @@
     <!-- Compétences start -->
         <section id="competences">
             <div id="image">
-                <!-- <img src="images/foot2.png" alt="image"> -->
             </div>
             <div id="competence_right">
-                <div>
-                    <h2>mes competences à votre service</h2>
-                    <p>A propos</p>
+                <h2>mes competences à votre service</h2>
+                <p>A propos</p>
+                <hr>
+                <div id="langage">
                     <div id="html">
-                        <div id="html_left">HTML</div>
-                        <div id="html_right"></div>
+                        <div id="html_color">
+                            <h3>html</h3>
+                            <h3>94%</h3>
+                        </div>
                     </div>
                     <div id="css">
-                        <div id="css_left"></div>
-                        <div id="css_right"></div>
+                        <div id="css_color">
+                            <h3>css</h3>
+                            <h3>90%</h3>
+                        </div>
                     </div>
-                    <div id=""></div>
+                    <div id="mysql">
+                        <div id="mysql_color">
+                            <h3>mysql</h3>
+                            <h3>60%</h3>
+                        </div>
+                    </div>
+                    <div id="js">
+                        <div id="js_color">
+                            <h3>js</h3>
+                            <h3>20%</h3>
+                        </div>
+                    </div>
+                    <div id="php">
+                        <div id="php_color">
+                            <h3>php</h3>  
+                            <h3>10%</h3>
+                        </div>
+                    </div>
+                    <div id="angular">
+                        <div id="angular_color">
+                            <h3>Angular</h3>
+                            <h3>2%</h3>
+                        </div>
+                    </div>
+                    <div id="docker">
+                        <div id="docker_color">
+                            <h3>docker</h3>
+                            <h3>2%</h3>
+                        </div>
+                    </div>
+                    <div id="figma">
+                        <div id="figma_color">
+                            <h3>figma</h3>
+                            <h3>60%</h3>
+                        </div>
+                    </div>
+                    <div id="git">
+                        <div id="git_color">
+                            <h3>git/github</h3>
+                            <h3>60%</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -109,9 +158,10 @@
         </section>
         <footer>
             <div id="footer_contact">
-                <a href="mailto:yaya.baldinho9@gmail.com"><img src="" alt=""></a>
-                <a href="tel:0755687348"><img src="" alt=""></a>
-                <a href="https://github.com/yayab10?tab=repositories"><img src="" alt="">bb</a>
+                <a href="mailto:yaya.baldinho9@gmail.com"><img src="images/mail.png" alt="logo_mail"></a>
+                <a href="tel:0755687348"><img src="images/tel.png" alt=""></a>
+                <a href="https://github.com/yayab10?tab=repositories"><img src="images/github.jpg" alt=""></a>
+                <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"><img src="images/linkedin.png" alt=""></a>
             </div>
             <div id="footer_droits">
                 <p>&copy; 2023 Yaya BALDE, Tout droits réservés;</p>
